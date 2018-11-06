@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AllViewController" customModule="My_Diary" customModuleProvider="target">
+            <connections>
+                <outlet property="ImgView" destination="pNM-gI-aLm" id="l0q-VF-MRr"/>
+                <outlet property="message" destination="MiZ-6G-mBZ" id="68a-M4-aSg"/>
+                <outlet property="titleLabel" destination="CbN-vP-YeZ" id="HRz-Hv-hdt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="5758071097150c8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DPo-WC-g52">
+                    <rect key="frame" x="-35" y="-3" width="444" height="672"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="X4v-rS-kBa">
+                    <rect key="frame" x="16" y="42" width="343" height="623"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CbN-vP-YeZ">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="32"/>
+                            <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pNM-gI-aLm">
+                            <rect key="frame" x="0.0" y="32" width="343" height="216"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="216" id="UZz-QI-gsw"/>
+                            </constraints>
+                        </imageView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiZ-6G-mBZ">
+                            <rect key="frame" x="0.0" y="248" width="343" height="375"/>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="X4v-rS-kBa" secondAttribute="bottom" constant="2" id="0Ue-2i-4gv"/>
+                <constraint firstItem="X4v-rS-kBa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="22" id="Fpd-ja-I4n"/>
+                <constraint firstItem="DPo-WC-g52" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-3" id="JYt-oW-d0y"/>
+                <constraint firstItem="DPo-WC-g52" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="MLx-kw-Lcu"/>
+                <constraint firstItem="X4v-rS-kBa" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="SI0-eb-NKX"/>
+                <constraint firstItem="X4v-rS-kBa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="emP-ez-r6r"/>
+                <constraint firstItem="DPo-WC-g52" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="-35" id="eoa-ok-LZR"/>
+                <constraint firstItem="DPo-WC-g52" firstAttribute="centerX" secondItem="X4v-rS-kBa" secondAttribute="centerX" id="sEI-Fv-dwj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.40000000000001" y="113.79310344827587"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="5758071097150c8.jpg" width="650" height="800"/>
+    </resources>
+</document>
