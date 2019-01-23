@@ -23,6 +23,13 @@
 		0635F24E2191599100C74838 /* AllViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0635F24C2191599100C74838 /* AllViewController.xib */; };
 		067C04762191813900BCBC0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067C04742191813900BCBC0F /* Main.storyboard */; };
 		067C04C12191A4B900BCBC0F /* 5758071097150c8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 067C04C02191A4B900BCBC0F /* 5758071097150c8.jpg */; };
+		06A60D2121C789CD00F55B85 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A60D2021C789CD00F55B85 /* EstimoteSDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		06CE619B21A277950009E2C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CE619921A277950009E2C5 /* LoginViewController.swift */; };
+		06CE619C21A277950009E2C5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06CE619A21A277950009E2C5 /* LoginViewController.xib */; };
+		06CE61A021A2BE8B0009E2C5 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CE619F21A2BE8B0009E2C5 /* Notes.swift */; };
+		06CE61A221A2C3240009E2C5 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 06CE61A121A2C3240009E2C5 /* awsconfiguration.json */; };
+		06E34DBE21ACEB5E003CA493 /* DBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E34DBC21ACEB5E003CA493 /* DBViewController.swift */; };
+		06E34DBF21ACEB5E003CA493 /* DBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06E34DBD21ACEB5E003CA493 /* DBViewController.xib */; };
 		5136D8E249DACA909A18BFE5 /* Pods_My_DiaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834AF4FE6749BD4E6933D77D /* Pods_My_DiaryUITests.framework */; };
 		A2452E49CEFDF20A62F72B4E /* Pods_My_DiaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9438D21614B43AA843AABE01 /* Pods_My_DiaryTests.framework */; };
 		D6EB25A9B9D67699714987F0 /* Pods_My_Diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE9343717304834CD4B616F /* Pods_My_Diary.framework */; };
@@ -50,7 +57,6 @@
 		0635F2042191330F00C74838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0635F20C2191330F00C74838 /* My_Diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Diary.xcdatamodel; sourceTree = "<group>"; };
 		0635F20E2191331600C74838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0635F2112191331600C74838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0635F2132191331600C74838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0635F2182191331600C74838 /* My DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My DiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0635F21C2191331600C74838 /* My_DiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_DiaryTests.swift; sourceTree = "<group>"; };
@@ -66,8 +72,16 @@
 		0635F24521913BAB00C74838 /* function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = function.swift; sourceTree = "<group>"; };
 		0635F24B2191599100C74838 /* AllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
 		0635F24C2191599100C74838 /* AllViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllViewController.xib; sourceTree = "<group>"; };
-		067C04752191813900BCBC0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067C04C02191A4B900BCBC0F /* 5758071097150c8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5758071097150c8.jpg; sourceTree = "<group>"; };
+		069C522D219A980B0094934E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		069C522E219A980B0094934E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06A60D2021C789CD00F55B85 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = "../../../Downloads/iOS-SDK-master/EstimoteSDK/EstimoteSDK.framework"; sourceTree = "<group>"; };
+		06CE619921A277950009E2C5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		06CE619A21A277950009E2C5 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		06CE619F21A2BE8B0009E2C5 /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		06CE61A121A2C3240009E2C5 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		06E34DBC21ACEB5E003CA493 /* DBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBViewController.swift; sourceTree = "<group>"; };
+		06E34DBD21ACEB5E003CA493 /* DBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DBViewController.xib; sourceTree = "<group>"; };
 		0997AF8A48D69075EBF4BA7C /* Pods-My DiaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My DiaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My DiaryTests/Pods-My DiaryTests.release.xcconfig"; sourceTree = "<group>"; };
 		0DCBCFC6166FE1B9A9D9F283 /* Pods-My DiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My DiaryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-My DiaryUITests/Pods-My DiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4C1DE1B6A861358445ABD900 /* Pods-My Diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Diary.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Diary/Pods-My Diary.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A60D2121C789CD00F55B85 /* EstimoteSDK.framework in Frameworks */,
 				D6EB25A9B9D67699714987F0 /* Pods_My_Diary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +182,7 @@
 		0635F235219133EE00C74838 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				06CE619F21A2BE8B0009E2C5 /* Notes.swift */,
 				0635F23A219134EE00C74838 /* File.swift */,
 			);
 			path = Model;
@@ -178,6 +194,8 @@
 				0635F23D2191352E00C74838 /* AllTableViewController.xib */,
 				0635F24C2191599100C74838 /* AllViewController.xib */,
 				0635F24121913A7100C74838 /* AllTableViewCell.xib */,
+				06E34DBD21ACEB5E003CA493 /* DBViewController.xib */,
+				06CE619A21A277950009E2C5 /* LoginViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +206,8 @@
 				0635F23C2191352E00C74838 /* AllTableViewController.swift */,
 				0635F24B2191599100C74838 /* AllViewController.swift */,
 				0635F24021913A7100C74838 /* AllTableViewCell.swift */,
+				06E34DBC21ACEB5E003CA493 /* DBViewController.swift */,
+				06CE619921A277950009E2C5 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +215,7 @@
 		0635F2382191340C00C74838 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				06CE61A121A2C3240009E2C5 /* awsconfiguration.json */,
 				067C04C02191A4B900BCBC0F /* 5758071097150c8.jpg */,
 			);
 			path = Resources;
@@ -233,6 +254,7 @@
 		3C83BB98AEDE2AD034A31283 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				06A60D2021C789CD00F55B85 /* EstimoteSDK.framework */,
 				5CE9343717304834CD4B616F /* Pods_My_Diary.framework */,
 				9438D21614B43AA843AABE01 /* Pods_My_DiaryTests.framework */,
 				834AF4FE6749BD4E6933D77D /* Pods_My_DiaryUITests.framework */,
@@ -354,8 +376,11 @@
 				0635F24E2191599100C74838 /* AllViewController.xib in Resources */,
 				067C04762191813900BCBC0F /* Main.storyboard in Resources */,
 				067C04C12191A4B900BCBC0F /* 5758071097150c8.jpg in Resources */,
+				06CE61A221A2C3240009E2C5 /* awsconfiguration.json in Resources */,
+				06E34DBF21ACEB5E003CA493 /* DBViewController.xib in Resources */,
 				0635F24321913A7100C74838 /* AllTableViewCell.xib in Resources */,
 				0635F23F2191352E00C74838 /* AllTableViewController.xib in Resources */,
+				06CE619C21A277950009E2C5 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,13 +410,87 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-My Diary/Pods-My Diary-resources.sh",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar_noarrow.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar_noarrow@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/avatar_noarrow@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBeetrootSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBeetrootSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBeetrootSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlackSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlackSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlackSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlueberrySmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlueberrySmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconBlueberrySmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconCandySmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconCandySmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconCandySmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconGreySmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconGreySmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconGreySmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconIcySmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconIcySmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconIcySmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconLemonSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconLemonSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconLemonSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconMintSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconMintSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconMintSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconTransparentSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconTransparentSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconTransparentSmall@3x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconWhiteSmall.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconWhiteSmall@2x.png",
+				"${PODS_ROOT}/EstimoteIndoorSDK/EstimoteIndoorLocationSDK/Resources/beaconWhiteSmall@3x.png",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_noarrow.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_noarrow@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/avatar_noarrow@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBeetrootSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBeetrootSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBeetrootSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlackSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlackSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlackSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlueberrySmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlueberrySmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconBlueberrySmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconCandySmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconCandySmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconCandySmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconGreySmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconGreySmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconGreySmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconIcySmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconIcySmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconIcySmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconLemonSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconLemonSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconLemonSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconMintSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconMintSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconMintSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconTransparentSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconTransparentSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconTransparentSmall@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconWhiteSmall.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconWhiteSmall@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beaconWhiteSmall@3x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -430,8 +529,20 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-My Diary/Pods-My Diary-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
@@ -441,14 +552,27 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/TSMessages/TSMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
@@ -458,6 +582,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -519,8 +644,11 @@
 				0635F23B219134EE00C74838 /* File.swift in Sources */,
 				0635F24D2191599100C74838 /* AllViewController.swift in Sources */,
 				0635F24221913A7100C74838 /* AllTableViewCell.swift in Sources */,
+				06CE619B21A277950009E2C5 /* LoginViewController.swift in Sources */,
+				06CE61A021A2BE8B0009E2C5 /* Notes.swift in Sources */,
 				0635F2052191330F00C74838 /* AppDelegate.swift in Sources */,
 				0635F23E2191352E00C74838 /* AllTableViewController.swift in Sources */,
+				06E34DBE21ACEB5E003CA493 /* DBViewController.swift in Sources */,
 				0635F24621913BAB00C74838 /* function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,7 +688,7 @@
 		0635F2102191331600C74838 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0635F2112191331600C74838 /* Base */,
+				069C522E219A980B0094934E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -568,7 +696,7 @@
 		067C04742191813900BCBC0F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				067C04752191813900BCBC0F /* Base */,
+				069C522D219A980B0094934E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -698,6 +826,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 263C4C5VW3;
 				INFOPLIST_FILE = "My Diary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -716,6 +845,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 263C4C5VW3;
 				INFOPLIST_FILE = "My Diary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

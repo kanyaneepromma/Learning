@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import AWSMobileClient
+import AWSCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,11 +22,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
+        //let viewController = LoginViewController()
         let viewController = AllTableViewController() //login ประมาณนี้
         //window?.rootViewController = viewController
+        window?.rootViewController = UINavigationController(rootViewController: viewController)
+        /*
         window?.rootViewController = UINavigationController(rootViewController: viewController) //ข้อมูล
+        let awsStarted = AWSMobileClient.sharedInstance().interceptApplication(application, didFinishLaunchingWithOptions: launchOptions)
+        AWSDDLog.add(AWSDDTTYLogger.sharedInstance)
+        AWSDDLog.sharedInstance.logLevel = .info
         
-        
+        return awsStarted*/
         return true
     }
 

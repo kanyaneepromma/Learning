@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
+
 class AllTableViewController: UITableViewController {
     var topics: [Topics] = []
     

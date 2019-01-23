@@ -15,7 +15,7 @@ class AllViewController: UIViewController {
     @IBOutlet weak var message: UITextView!
     @IBOutlet weak var ImgView: UIImageView!
     
-    var topicData: Topics?
+    var topicData: Topics!
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = topicData!.Topic_Name
